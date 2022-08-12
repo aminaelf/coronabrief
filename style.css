@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background: url("./Assets/png/Merged\ bar-57.png") no-repeat;
+        align-items: center;
+        background-size: cover;
+        top: 0;
+        width: 100%;
+        /* position: fixed; */
+    }
+    .navbar_logo{
+    padding-left: 1.5em;
+    
+    }
+    .navbar_listes{
+    padding-right: 1.5em;
+    
+    }
+    .navbar_listes--link{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 1em;
+    font-weight: bold;
+    color: blue;
+  
+    
+    }
+    .navbar_listes--link1{
+        text-decoration: none;
+        font-size: 1.5em;
+        padding-right: 1em;
+        font-weight: bold;
+        color: black;
+      
+        
+        }
+    .lang{
+        border: 1px solid orange;
+        padding: 0.1em;
+        border-radius: 15px;
+       
+    }
+    .yellowbar{
+        background-color: rgb(255, 200, 0);
+        /* width: 100%; */
+        /* padding-bottom: 10px; */
+    }
+    .test{
+        display: flex;
+        justify-content: space-around;
+        padding:20px ;
+        margin:10px;
+    }
+    .test__img{
+        width: 30%;
+    }
+    .test__img2{
+    width: 10%;
+    
+    }
+    .paratest{
+        width: 40%;
+        text-align: center;
+        margin-left: 80px;
+    }
+    .title-heading{
+        text-align: center;
+        /* padding-top: 10px; */
+        font-family: 'Segoe UI', sans-serif;
+        
+    }
+    .description{
+    text-align: center;
+    /* padding-top: 15px; */
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 30px;
+    color: rgb(24, 124, 107);
+    font-size: small;
+    font-weight: 600;
+    width: 41em;
+    margin: auto;
+    }
+    /* Grid */
+    .symptome{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        /*width: 600px; /* approcher les images */
+        margin: 0 auto;/*aligner  a droite/
+        /* padding-left: 10%; */
+        padding-bottom: 30px;
+        margin-top: 20px;
+    
+
+
+    }
+
+    .img{
+        width: 4em;
+        padding: 1.5em;
+        
+        
+    
+    }
+    .img-1{
+        width: 3em;
+        height: 4.5em;
+        
+
+    }
+    .phrase-bleu{
+        text-align: center;
+        color: azure;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: rgb(28, 126, 239);
+        padding-top: 1em;
+
+    }
+    .title-question{
+        text-align: center;
+        font-family: 'Segoe UI', sans-serif;
+        color: rgb(48, 142, 168);
+        padding-bottom: 30px;
+        width: 20em;
+        padding-left: 35%;
+        text-align: center;
+    }
